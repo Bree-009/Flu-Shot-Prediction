@@ -30,3 +30,54 @@ Despite the benefits of vaccines, many people are still reluctant to get vaccine
 This project aims to develop a predictive model capable of forecasting vaccine uptake by analyzing an individual's background information and behavioral patterns.
 Understanding the reasons behind vaccine hesitancy will better enable healthcare personnel to provide the education and awareness that individuals need to make responsible immunization choices.
 
+## Main Objective
+The main objective of this project is to develop a predictive model capable of forecasting seasonal flu vaccine uptake by analyzing an individual's background information and behavioral patterns.
+
+## Notebook Structure
+
+## Data Understanding
+The data used in this project was obtained from: [DRIVENDATA](https://www.drivendata.org/competitions/66/flu-shot-learning/data/).
+
+The dataset is divided into: training set features and training set labels.
+
+Each row in the dataset represents one person who responded to the National 2009 H1N1 Flu Survey.
+
+The **training set features** contains: *26707 rows* and *35 columns*
+
+The **training set labels** contains: *26707 rows* and *2 columns*
+
+## Data Preparation
+This step involved cleaning the data, handling missing values and handling duplicates. 
+It ensured that the data wass accurate, complete, and formatted correctly for use in analysis and modelling. 
+
+Exploratory Data Analysis wascperformed  to understand the relationships between variables, identify patterns and gain insights into the dataset. 
+This helped in understanding the distribution of the data, which guided model selection and hyperparameter tuning.
+
+Data preprocessing was also performed to transform data into a format that is more suitable for modeling. 
+The steps that were undertaken in this step included: Feature Encoding, Feature Selection, Feature Scaling and Data Splitting.
+
+## Modelling
+Several models were built and trained using the training dataset. Hyperparameters were tuned to optimize performance.
+The performance of the models was evaulated using cross-validation, accuracy, precision and recall.
+
+## Evaluation
+As per the metrics,the  **Random Forest after Hyperparameter Tuning Model** performed the best on both training and testing data and had consistent performance in cross-validation. 
+
+The Random forest after Hyperparameter Tuning model was selected over logistic regression after after RFECV because it can capture complex nonlinear relationships between the features and the outcome.
+
+The scores of the Baseline Model were improved from a training accuracy of 74.39% and a testing accuracy of 74.36% , to a training accuracy of 79.72% and a testing accuracy of 77.23%. The F1 Score was improved from 72.19% in training and  71.73% in testing to 77.51% in training and 74.69% in testing. This is as close as the model got to the targeted accuracy of 80% without overfitting.
+
+The final model can accurately predict whether an individual got the seasonal flu vaccine about 77% of the time.
+
+## Recommendation
+
+* Education and Awareness Campaigns: Focus on educating the public about the importance of following preventative guidelines such as frequent hand washing, avoiding large gatherings, and wearing face masks, especially for those who are hesitant about getting vaccinated.
+
+* Emphasize Vaccine Safety and Effectiveness: Highlight the Safety and effectiveness of the flu vaccine in preventing illness and emphasize the risks associated with not getting vaccinated. Focus on educating the public about how vaccines work and addressing any questions people might have about vaccines.
+
+* Encourage healthcare providers to recommend the flu vaccine to their patients, as individuals are more likely to get vaccinated when it is recommended by a doctor. 
+
+* Target Specific Demographic Groups: Tailor outreach efforts to demographic groups that are less likely to be vaccinated, such as younger individuals and those with lower levels of education.
+
+* Ensure that cost is not a barrier to vaccination by offering free or low-cost vaccination clinics, particularly for individuals with lower incomes. 
+

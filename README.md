@@ -1,3 +1,5 @@
+![banner](https://github.com/Bree-009/Predicting-Flu-Shot-Vaccine-Uptake/blob/main/flushot%20banner.jpg)
+
 # Predicting Flu-Shot Vaccine Uptake
 
 ## Introduction

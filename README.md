@@ -87,7 +87,7 @@ The dataset used in training these models exhibits significant bias towards cert
 * Consider more diversity in data collection to obtain data from a more balanced group of people in terms of race, education and income.
 
 * Monitor model performance and retrain the model once more data becomes available.
-* 
+  
 ## Recommendation
 
 * Education and Awareness Campaigns: Focus on educating the public about the importance of following preventative guidelines such as frequent hand washing, avoiding large gatherings, and wearing face masks, especially for those who are hesitant about getting vaccinated.

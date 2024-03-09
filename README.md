@@ -34,6 +34,16 @@ Understanding the reasons behind vaccine hesitancy will better enable healthcare
 The main objective of this project is to develop a predictive model capable of forecasting seasonal flu vaccine uptake by analyzing an individual's background information and behavioral patterns.
 
 ## Notebook Structure
+1. Business Understanding
+2. Reading and understanding the data
+3. Data Cleaning
+4. Exploratory data analysis
+5. Data preprocessing 
+6. Modelling 
+7. Evaluation 
+8. Pickling
+9. Limitations and Next Steps
+10. Recommendations
 
 ## Data Understanding
 The data used in this project was obtained from: [DRIVENDATA](https://www.drivendata.org/competitions/66/flu-shot-learning/data/).
@@ -69,6 +79,15 @@ The scores of the Baseline Model were improved from a training accuracy of 74.39
 
 The final model can accurately predict whether an individual got the seasonal flu vaccine about 77% of the time.
 
+## Limitations and Next Steps
+### Limitations
+The dataset used in training these models exhibits significant bias towards certain demographics, such as white individuals and those with higher levels of education, employment status, and income. This bias can lead to skewed model predictions, as the model may prioritize patterns and relationships that are more prevalent within this specific group. Consequently, the model's performance and generalizability to the broader population may be compromised.
+
+### Next Steps:
+* Consider more diversity in data collection to obtain data from a more balanced group of people in terms of race, education and income.
+
+* Monitor model performance and retrain the model once more data becomes available.
+* 
 ## Recommendation
 
 * Education and Awareness Campaigns: Focus on educating the public about the importance of following preventative guidelines such as frequent hand washing, avoiding large gatherings, and wearing face masks, especially for those who are hesitant about getting vaccinated.

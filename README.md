@@ -75,7 +75,7 @@ As per the metrics,the  **Random Forest after Hyperparameter Tuning Model** perf
 
 The Random forest after Hyperparameter Tuning model was selected over logistic regression after after RFECV because it can capture complex nonlinear relationships between the features and the outcome.
 
-The scores of the Baseline Model were improved from a training accuracy of 74.39% and a testing accuracy of 74.36% , to a training accuracy of 79.72% and a testing accuracy of 77.23%. The F1 Score was improved from 72.19% in training and  71.73% in testing to 77.51% in training and 74.69% in testing. This is as close as the model got to the targeted accuracy of 80% without overfitting.
+The scores of the Baseline Model were improved from a training accuracy of 74.39% and a testing accuracy of 74.36% , to a training accuracy of 79.75% and a testing accuracy of 77.17%. The F1 Score was improved from 72.20% in training and 71.73% in testing to 77.50% in training and 74.74% in testing. The success metric of 75% was achieved in accuracy but for F1 score, 74.74% is as close as the model got without overfitting.
 
 The final model can accurately predict whether an individual got the seasonal flu vaccine about 77% of the time.
 
